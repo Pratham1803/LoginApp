@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="btnLoginText">Login</string>
+    <string name="btnRegisterText">Register</string>
+    <string name="txtEmail">Enter Email Id Here</string>
+    <string name="txtPsw">Enter Password Here</string>
+    <string name="btnLogOut">Log Out</string>
+</resources>

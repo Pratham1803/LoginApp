@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117606356219",
+    "project_id": "winged-ray-395610",
+    "storage_bucket": "winged-ray-395610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117606356219:android:9e3326eae74134c76ccc5e",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTSJOgXbEuEU67H8eNTTHcLv7VgaiZX4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
