@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -33,6 +34,10 @@ public class LoginScreen extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Intent i = new Intent(LoginScreen.this, LogOutScreen.class);
                             startActivity(i);
+
+                            SharedPreferences sharedPreferences = getSharedPreferences("LoginRef",MODE_PRIVATE);
+                            SharedPreferences.Editor editor = sharedPreferences.edit();
+                            editor.putBoolean("isLoggedIn",true).apply();
                         } else {
                             // If sign in fails, display a message to the user.
                             Toast.makeText(LoginScreen.this, "Authentication failed.",
